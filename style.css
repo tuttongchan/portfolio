@@ -166,7 +166,8 @@ h6 {
 }
 
 .logo-arrow {
-  font-size: 500%;
+  /* font-size: 500%; */
+  font-size: 5rem;
   color: black;
   cursor: pointer;
 }
