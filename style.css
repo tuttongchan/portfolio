@@ -103,7 +103,8 @@ header {
 }
 
 h6 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
 .span-name {
@@ -187,12 +188,13 @@ h6 {
 
 .main-container {
   width: 100%;
-  margin: 0 auto;
+  margin-top: 2rem;
+  /* margin: 0 auto; */
 }
 
 .post-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 320px);
+  grid-template-columns: repeat(auto-fit, 380px);
   gap: 20px;
   justify-content: center;
   padding-bottom: 50px;
@@ -229,7 +231,7 @@ h6 {
 }
 
 .demo-link {
-  padding: 1.5px;
+  padding: 1.5px 5px;
   border: 1px solid #ee0979;
   border-radius: 0.25rem;
   font-size: 1.3rem;
