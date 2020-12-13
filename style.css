@@ -4,7 +4,7 @@
   box-sizing: inherit;
 }
 
-html, 
+html,
 body {
   font-size: 62.5%;
   font-family: "Montserrat", sans-serif;
@@ -14,6 +14,7 @@ body {
 
 header {
   height: 100vh;
+  width: 100%;
 }
 
 .navbar-div {
@@ -21,11 +22,6 @@ header {
   padding: 3.5rem 6rem;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
 }
-
-/* nav{
-    display: flex;
-    justify-content: flex-end;
-} */
 
 .nav-logo {
   position: absolute;
@@ -89,6 +85,12 @@ header {
   justify-content: center;
 }
 
+.heading-1,
+.heading-2,
+.heading-3 {
+  text-align: center;
+}
+
 .heading-1 {
   font-size: 6.5rem;
 }
@@ -114,14 +116,14 @@ h6 {
   -webkit-background-clip: text;
 }
 
-.span-name::after {
+/* .span-name::after {
   content: "";
   position: absolute;
   width: 5px;
   height: 10%;
   background: linear-gradient(to right, #ee0979, #ff6a00);
   animation: blink 0.6s infinite ease;
-}
+} */
 
 @keyframes blink {
   0% {
@@ -370,7 +372,7 @@ footer {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
- /* Make this absolute positioned
+/* Make this absolute positioned
  at the top left of the screen */
 
 #menu {
