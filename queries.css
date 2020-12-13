@@ -20,6 +20,10 @@
     top: -55%;
     right: 82%;
   }
+
+  .post-wrapper {
+    grid-template-columns: repeat(auto-fit, 360px);
+  }
 }
 
 @media (max-width: 900px) {
@@ -46,10 +50,6 @@
     display: block;
   }
 
-  header{
-    padding: 3rem 0;
-  }
-
   .logo-arrow,
   .navbar-div {
     display: none;
@@ -60,7 +60,11 @@
   }
 
   .heading-1 {
-    font-size: 500%;
+    font-size: 600%;
+  }
+
+  .heading-2{
+    font-size: 450%;
   }
 
   .heading-1,
@@ -69,9 +73,12 @@
     text-align: center;
   }
 
+  .post-wrapper {
+    grid-template-columns: repeat(auto-fit, 330px);
+  }
+
   .span-name::after {
     display: none;
-    /* height: 7%; */
   }
 
   .foot-list {
