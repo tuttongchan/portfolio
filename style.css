@@ -78,7 +78,7 @@ header {
 
 .heading-div {
   width: 100%;
-  height: 90%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -251,7 +251,7 @@ footer {
 }
 
 .footer-container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   padding: 7rem 0;
   border-top: 1px solid black;
@@ -381,9 +381,9 @@ footer {
   /* width: 300px; */
   width: 100%;
   /* margin: -100px 0 0 -50px; */
-  margin: -110px 0 0 -50px;
+  margin: -110px 0 -0 -50px;
 
-  padding: 50px;
+  padding: 50px 50px 30px 50px;
   padding-top: 125px;
 
   background: #ededed;
