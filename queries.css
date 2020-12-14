@@ -65,6 +65,10 @@
     display: block;
   }
 
+  .heading-div{
+    padding-top: 4rem;
+  }
+
   .nav-logo {
     display: none;
   }
@@ -91,6 +95,10 @@
   .logo-arrow,
   .navbar-div {
     display: none;
+  }
+
+  .heading-div{
+    padding-top: 5rem;
   }
 
   .heading-1 {
