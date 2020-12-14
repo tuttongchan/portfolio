@@ -10,7 +10,7 @@
   }
 }
 
-@media (max-width: 1400px){
+@media (max-width: 1400px) {
   .nav-logo {
     position: absolute;
     top: -55%;
@@ -36,7 +36,7 @@
     font-size: 750%;
   }
 
-  .heading-2{
+  .heading-2 {
     font-size: 500%;
   }
 
@@ -45,7 +45,7 @@
   }
 }
 
-@media (max-width: 1050px){
+@media (max-width: 1050px) {
   #menuToggle {
     display: block;
   }
@@ -74,15 +74,11 @@
     display: none;
   }
 
-  .heading-div {
-    margin: 7rem 0;
-  }
-
   .heading-1 {
     font-size: 650%;
   }
 
-  .heading-2{
+  .heading-2 {
     font-size: 470%;
   }
 }
@@ -97,16 +93,17 @@
     display: none;
   }
 
-  .heading-div {
-    margin: 8rem 0;
-  }
-
   .heading-1 {
     font-size: 520%;
   }
 
-  .heading-2{
+  .heading-2 {
     font-size: 400%;
+  }
+
+  .heading-3 {
+    font-size: 330%;
+    margin-top: 0.5rem;
   }
 
   .post-wrapper {
