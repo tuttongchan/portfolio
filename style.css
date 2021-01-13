@@ -223,7 +223,6 @@ h6 {
 }
 
 .post-title {
-  font-size: 1.8rem;
   color: black;
   margin-bottom: 3px;
 }
@@ -234,8 +233,7 @@ h6 {
   margin: 5px 0 11px 0;
 }
 
-.demo-link, 
-.source-link {
+.demo-link {
   padding: 1.5px 5px;
   border: 1px solid #ee0979;
   border-radius: 0.25rem;
