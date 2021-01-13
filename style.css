@@ -200,7 +200,7 @@ h6 {
   grid-template-columns: repeat(auto-fit, 380px);
   gap: 20px;
   justify-content: center;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 
 .post {
@@ -230,7 +230,7 @@ h6 {
 .post-intro {
   color: #4b5156;
   font-size: 14px;
-  margin-bottom: 8px;
+  margin: 5px 0 11px 0;
 }
 
 .demo-link {
@@ -241,12 +241,24 @@ h6 {
   font-weight: 900;
   text-decoration: none;
   color: #ee0979;
+  transition: all 0.3s ease;
+}
+
+.demo-link:hover,
+.source-link:hover {
+  border: 1px solid #ee0979;
+  background: #ee0979;
+  color: #fff;
+}
+
+.source-link{
+  margin-left: 0.3rem;
 }
 
 /*--------------- FOOOTER ---------------*/
 
 footer {
-  padding: 7rem 0 0 0;
+  padding: 0rem 0 0 0;
   background-color: #f8f9fa;
 }
 
@@ -254,7 +266,6 @@ footer {
   width: 100%;
   margin: 0 auto;
   padding: 7rem 0;
-  border-top: 1px solid black;
 }
 
 .foot-list {
@@ -264,7 +275,7 @@ footer {
 }
 
 .foot-item {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-decoration: none;
   color: black;
 }
