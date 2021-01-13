@@ -200,10 +200,11 @@ h6 {
   grid-template-columns: repeat(auto-fit, 380px);
   gap: 20px;
   justify-content: center;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 
 .post {
+  border: 1px solid #c1c1c1;
   -webkit-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
   box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
@@ -231,7 +232,6 @@ h6 {
   color: #4b5156;
   font-size: 14px;
   margin: 5px 0 11px 0;
-  /* margin-bottom: 8px; */
 }
 
 .demo-link, 
@@ -248,26 +248,26 @@ h6 {
 
 .demo-link:hover,
 .source-link:hover {
+  border: 1px solid #ee0979;
+  background: #ee0979;
   color: #fff;
-  background-color: #ee0979;
 }
 
-.source-link {
+.source-link{
   margin-left: 0.3rem;
 }
 
 /*--------------- FOOOTER ---------------*/
 
 footer {
-  /* padding: 7rem 0 0 0; */
+  padding: 0rem 0 0 0;
   background-color: #f8f9fa;
 }
 
 .footer-container {
   width: 100%;
   margin: 0 auto;
-  padding: 1rem 0 7rem 0;
-  /* border-top: 1px solid black; */
+  padding: 7rem 0;
 }
 
 .foot-list {
@@ -277,7 +277,7 @@ footer {
 }
 
 .foot-item {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   text-decoration: none;
   color: black;
 }
