@@ -179,7 +179,7 @@ h6 {
 
 .section-projects {
   width: 100%;
-  padding: 2.5rem 0;
+  padding: 2rem 0 2.5rem 0;
   background: #f8f9fa;
 }
 
@@ -204,7 +204,7 @@ h6 {
 }
 
 .post {
-  border: 1px solid #c1c1c1;
+  /* border: 1px solid #c1c1c1; */
   -webkit-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
   box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
@@ -233,7 +233,8 @@ h6 {
   margin: 5px 0 11px 0;
 }
 
-.demo-link {
+.demo-link, 
+.source-link {
   padding: 1.5px 5px;
   border: 1px solid #ee0979;
   border-radius: 0.25rem;
