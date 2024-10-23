@@ -1,0 +1,136 @@
+.tut-logo {
+  width: 8rem;
+  margin-left: 1rem;
+  z-index: 9999999999;
+  cursor: pointer;
+}
+.tut-logo-tag {
+  cursor: pointer;
+}
+.tut-center-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.project-head {
+  margin-bottom: 2rem;
+}
+.tut-technologies-box {
+  font-weight: 600;
+  font-size: 12.5px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 2px 6px;
+  margin-right: 4px;
+}
+.tags {
+  font-weight: 400;
+}
+.a-tag-remove-underline {
+  text-decoration: none;
+}
+.tut-tag-live {
+  color: #32cd32;
+}
+.tut-tag-live:hover {
+  color: #32cd32;
+}
+.tut-tag-code {
+  color: #b24bf3;
+}
+.tut-tag-code:hover {
+  color: #b24bf3;
+}
+.tut-block-title {
+  font-size: 28px;
+  text-transform: none;
+  color: #333;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+  font-weight: 600;
+  line-height: 45px;
+}
+.tut-desc-title {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #000;
+}
+
+/* Tech Logo */
+.tech-logo-box {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-bottom: 1.6rem;
+}
+@media (max-width: 975px) {
+  .tech-logo-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 870px) {
+  .status {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .tech-logo-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.tech-logo-box div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1.8rem;
+  font-weight: 600;
+}
+.tech-logo-box div img {
+  width: 3rem;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+
+/* Contact Page */
+/* .contact-details h5,
+.contact-details p {
+  font-size: 18px;
+} */
+
+/* Email Project Images */
+
+/* Font Awesome Logos */
+.fa-css3 {
+  font-size: 27px;
+}
+
+/* Media Queries */
+@media (max-width: 1480px) {
+  .name-block {
+    border-top: none;
+  }
+}
+
+@media (max-width: 1020px) {
+  .name-block {
+    border-top: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .tut-logo-tag {
+    display: none;
+  }
+  .socials-box {
+    margin-bottom: 1rem;
+  }
+  .name-block-container h2 {
+    margin-bottom: 0;
+  }
+}
